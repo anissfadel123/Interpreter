@@ -1,0 +1,18 @@
+Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 24 2018, 02:44:43) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+========= RESTART: /Users/Aniss/Desktop/Interpreter/assignParser.py =========
+assignment > x = 001;
+yacc: Syntax error at line 1, token=LITERAL
+assignment > x_2 = 0;
+x_2 = 0
+assignment > x = 0
+yacc: Parse error in input. EOF
+assignment > x = 0 y = x z = ---(x+y);
+yacc: Syntax error at line 1, token=IDENTIFIER
+assignment > x = 1; y = 2; z = ---(x+y)*(x+-y);
+x = 1
+y = 2
+z = 3
+assignment > 
